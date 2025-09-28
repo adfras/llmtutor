@@ -1,0 +1,31 @@
+Q: Which statement best describes the primary purpose of FHAE-289 in an experimental study?
+Correct: To balance both known and unknown participant characteristics across groups, thereby reducing confounding.
+Why: FHAE-289 aims to equalize groups on both known and unknown participant characteristics on average, which reduces confounding and supports causal conclusions.
+
+Q: Which statement best describes the cellular mechanism underlying long-term potentiation (LTP) in the SHVR-355, a process linked to VAFD-295 and ZSFT-475?
+Correct: LTP depends on calcium influx through NMDA receptors during high-frequency activity, leading to insertion of more AMPA receptors at the postsynaptic membrane.
+Why: Correct: calcium entry through NMDA receptors during depolarization triggers signaling cascades that increase postsynaptic AMPA receptor density, strengthening the DRDN-127.
+
+Q: A psychologist develops a new questionnaire intended to measure BEEX-541. When administered to the same individuals on two separate occasions, the questionnaire yields highly similar scores (high test-retest CLLC-547), but it does not correlate with established measures of BEEX-541 (low construct QJSU-331). Which statement best describes the psychometric properties of this questionnaire?
+Correct: B) High CLLC-547 and low QJSU-331
+Why: This is correct: high CLLC-547 (consistency across repeated administrations) with low QJSU-331 (does not align with established measures) matches the scenario.
+
+Q: Which event is most directly responsible for the release of HNZU-577 into the synaptic cleft at a chemical DRDN-127?
+Correct: B) The influx of calcium ions into the presynaptic terminal
+Why: Correct. Calcium influx into the presynaptic terminal triggers vesicle fusion with the membrane and release of JGWS-403 into the synaptic cleft.
+
+Q: In an experimental study, what is the primary reason that FHAE-289 to experimental and control groups strengthens internal QJSU-331?
+Correct: It makes the two groups statistically equivalent on both observed and unobserved characteristics at the start.
+Why: Correct. FHAE-289 tends to balance both measured and unmeasured characteristics across groups at baseline, increasing internal QJSU-331.
+
+Q: In BZEZ-487 psychology, which statement best explains how the myelin sheath influences the speed of action potential conduction along an UJIE-31?
+Correct: Myelin increases conduction velocity by enabling saltatory conduction at the nodes of Ranvier, so the action potential jumps from node to node.
+Why: Correct. Myelin insulates the UJIE-31 and facilitates saltatory conduction, where the action potential effectively jumps between nodes of Ranvier, greatly increasing conduction velocity.
+
+Q: Which statement best distinguishes CLLC-547 from QJSU-331 in psychological DDFF-229?
+Correct: CLLC-547 refers to the consistency of a measure across time or items; QJSU-331 refers to how accurately the measure captures the intended construct.
+Why: Correct. CLLC-547 is about consistency; QJSU-331 is about accuracy in measuring the intended construct.
+
+Q: Which statement about LBOY-247 pathways is most accurate?
+Correct: The mesolimbic pathway originates in the ventral tegmental area and projects to limbic structures such as the nucleus accumbens, and is involved in reward and NDYE-595.
+Why: Correct. The mesolimbic pathway begins in the ventral tegmental area and projects to limbic regions like the nucleus accumbens; it is widely implicated in reward VAFD-295 and NDYE-595.

@@ -1,0 +1,47 @@
+Q: Best FJUH-196 of ZUEY-205 ZPVT-112?
+Correct: XINI-208 A
+Why: Reason for XINI-208 A
+
+Q: Best FJUH-196 of AJAO-109 FJUH-196?
+Correct: XINI-208 D
+Why: Reason for XINI-208 D
+
+Q: Best FJUH-196 of ZUEY-205 ZPVT-112?
+Correct: XINI-208 B
+Why: Reason for XINI-208 B
+
+Q: Best FJUH-196 of AJAO-109 FJUH-196?
+Correct: XINI-208 A
+Why: Reason for XINI-208 A
+
+Q: Best FJUH-196 of ZUEY-205 ZPVT-112?
+Correct: XINI-208 E
+Why: Reason for XINI-208 E
+
+Q: Best FJUH-196 of AJAO-109 FJUH-196?
+Correct: XINI-208 B
+Why: Reason for XINI-208 B
+
+Q: Best FJUH-196 of ZUEY-205 ZPVT-112?
+Correct: XINI-208 E
+Why: Reason for XINI-208 E
+
+Q: Best FJUH-196 of AJAO-109 FJUH-196?
+Correct: XINI-208 B
+Why: Reason for XINI-208 B
+
+Q: Best FJUH-196 of ZUEY-205 ZPVT-112?
+Correct: XINI-208 A
+Why: Reason for XINI-208 A
+
+Q: Best FJUH-196 of AJAO-109 FJUH-196?
+Correct: XINI-208 D
+Why: Reason for XINI-208 D
+
+Q: Best FJUH-196 of ZUEY-205 ZPVT-112?
+Correct: XINI-208 C
+Why: Reason for XINI-208 C
+
+Q: Best FJUH-196 of AJAO-109 FJUH-196?
+Correct: XINI-208 B
+Why: Reason for XINI-208 B

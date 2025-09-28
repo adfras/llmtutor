@@ -1,0 +1,16 @@
+.venv/
+.env
+*.py[cod]
+__pycache__/
+.DS_Store
+*:Zone.Identifier
+sim_run*.out
+uvicorn.out
+
+# build artifacts
+web/dist/
+web/node_modules/
+
+# caches
+server/.pytest_cache/
+

@@ -1,0 +1,399 @@
+Q: In a randomized controlled trial testing a new therapy, which statement best describes how random assignment affects internal validity?
+Correct: It helps ensure that any observed differences between groups are due to the treatment rather than pre-existing differences among participants.
+Why: Correct. Random assignment helps balance both known and unknown participant characteristics across groups, increasing internal validity and supporting causal inferences about the treatment.
+
+Q: Which statement best describes chemical synaptic transmission in the central nervous system?
+Correct: The presynaptic neuron releases neurotransmitters into the synaptic cleft, which bind to receptors on the postsynaptic neuron, triggering a response.
+Why: Correct. In chemical synapses, the presynaptic terminal releases neurotransmitters into the cleft; these bind to receptors on the postsynaptic membrane to elicit a response.
+
+Q: In a randomized experiment testing a cognitive training program, participants are randomly assigned to either the training group or a no-training control group. After six weeks, outcomes differ between groups. Which design feature most directly ensures that observed differences are due to the training and not preexisting differences between groups?
+Correct: Random assignment of participants to the experimental and control groups.
+Why: Correct. Random assignment helps ensure the two groups are equivalent at baseline, so differences are more likely due to the training.
+
+Q: Which statement about action potential conduction and myelination is correct?
+Correct: Myelin increases conduction speed by insulating the axon and enabling saltatory conduction at the nodes of Ranvier.
+Why: Correct. Myelin insulation increases membrane resistance and reduces capacitance, allowing the action potential to 'jump' between nodes of Ranvier in a process called saltatory conduction, which speeds transmission.
+
+Q: A psychologist administers a depression inventory to a group of participants on two occasions, two weeks apart, and obtains highly similar scores. This finding provides evidence of the measure's:
+Correct: test-retest reliability
+Why: Correct. Test-retest reliability assesses the consistency of a measure over time.
+
+Q: Which statement best explains how a single neurotransmitter can produce both excitatory and inhibitory effects on different postsynaptic neurons?
+Correct: The effect depends on the receptor subtypes that the postsynaptic neuron expresses; different receptors can cause EPSPs or IPSPs.
+Why: Correct. Different receptor subtypes (e.g., for a given neurotransmitter) can elicit EPSPs or IPSPs depending on the postsynaptic signaling pathways.
+
+Q: Which statement best distinguishes random sampling from random assignment in research design?
+Correct: Random sampling refers to how participants are chosen from the population; random assignment refers to how participants are placed into treatment conditions.
+Why: Correct: Random sampling describes how participants are selected from the population, while random assignment describes how participants are allocated to experimental groups after sampling.
+
+Q: Which brain structure is most critically involved in forming new declarative memories (episodic and semantic)?
+Correct: Hippocampus
+Why: Hippocampus is essential for encoding and consolidating new declarative memories; damage to it disrupts episodic and semantic memory formation.
+
+Q: In a randomized controlled trial examining the effect of a study technique on exam scores, participants are randomly assigned to either the study technique condition or a control condition, and all participants take the same standardized test. Which statement best describes how random assignment affects causal inference?
+Correct: Random assignment helps ensure that preexisting differences between participants are distributed roughly equally across conditions, increasing internal validity.
+Why: Correct. Random assignment helps distribute participant characteristics across groups, which reduces confounding and strengthens internal validity, making causal claims more justifiable.
+
+Q: Which statement best describes a property of synaptic transmission in the central nervous system?
+Correct: Neurotransmitter release at the presynaptic terminal is triggered by an influx of calcium ions following depolarization.
+Why: Correct. The arrival of an action potential at the presynaptic terminal opens voltage-gated calcium channels; Ca2+ influx triggers neurotransmitter release into the synaptic cleft.
+
+Q: In Baddeley's (1974) model of working memory, which component is most responsible for briefly maintaining and subvocally rehearsing verbal information (like a phone number) to keep it available in the short term?
+Correct: Phonological loop
+Why: The phonological loop stores verbal/auditory information and uses subvocal rehearsal to maintain it in short-term memory.
+
+Q: Which statement best illustrates the concept of the zone of proximal development (ZPD) as described by Vygotsky?
+Correct: A learner can perform a task with guidance from a more knowledgeable other.
+Why: Correct; the ZPD is defined as the range of tasks a learner can perform with guidance or scaffolding from a more knowledgeable other.
+
+Q: Which finding most directly supports the levels-of-processing theory of memory proposed by Craik and Lockhart?
+Correct: Participants recall more words when they encode them semantically than when they simply count syllables.
+Why: Semantic encoding leads to deeper processing and better recall, which is the core prediction of the levels-of-processing theory.
+
+Q: According to Piaget's theory of cognitive development, a child who consistently understands that the amount of liquid remains the same when poured into a differently shaped container demonstrates which stage of cognitive development?
+Correct: Concrete operational stage
+Why: Correct: the concrete operational stage (about 7–11 years) is when children understand conservation and can perform logical operations on concrete objects.
+
+Q: A participant memorizes a list of 12 words by creating a vivid image for each word and placing these images along a familiar route (the method of loci). This encoding strategy best illustrates which memory principle?
+Correct: Dual-coding theory (memory is enhanced when information is represented in both verbal and visual codes).
+Why: Correct. The method of loci uses vivid imagery (visual codes) together with verbal information, engaging two coding systems. This aligns with Paivio's dual-coding theory and explains the memory boost observed with imagery-based encoding.
+
+Q: Which statement best describes the Zone of Proximal Development (ZPD) in Vygotsky's theory of cognitive development?
+Correct: Learning is maximized when instruction provides scaffolding for tasks just beyond the learner's current ability, with gradual removal of support.
+Why: Correct. ZPD posits that maximum learning occurs when instruction targets tasks just beyond current ability, using scaffolding and gradually withdrawing support.
+
+Q: According to levels-of-processing theory, which encoding task would most likely produce the best long-term retention of a list of unrelated words?
+Correct: Decide whether each word fits into a semantic category (e.g., animal vs. tool).
+Why: Semantic encoding requires thinking about meaning and relationships, producing deeper processing and the strongest memory retention among the options.
+
+Q: A 4-year-old watches two glasses that contain the same amount of juice: one tall and narrow, the other short and wide. After pouring the juice from the short glass into the tall one, the child says there is more juice in the tall glass. This error best illustrates a deficit in which developmental concept?
+Correct: Conservation
+Why: Conservation is the understanding that quantitative properties (like volume) remain the same despite changes in the container’s appearance; this child has not yet mastered conservation, typical of the preoperational stage.
+
+Q: According to the encoding specificity principle, which situation would most enhance recall of a studied word?
+Correct: The retrieval cues available at test match the cues present during encoding.
+Why: Correct. Encoding specificity suggests memory is best when retrieval cues overlap with those available at encoding.
+
+Q: In a conservation task, a child watches water be poured from a tall, narrow glass into a shorter, wider glass and then says the taller glass contains more water. This pattern best illustrates which Piagetian concept?
+Correct: c) Centration (leading to a lack of conservation)
+Why: Centration is the tendency to focus on one aspect of a problem (e.g., height) while neglecting others (e.g., volume), which explains the incorrect judgment about the amount of water.
+
+Q: In a six-member group project, each member tends to contribute less effort than they would if they were working alone, resulting in lower overall productivity. This pattern is best explained by which social psychology concept?
+Correct: Social loafing
+Why: Correct. Social loafing describes the reduction in individual effort when people work in a group, due to diffusion of accountability and reduced motivation.
+
+Q: Which statement best captures the core assumption of trait theory in personality psychology?
+Correct: Personality consists of relatively stable, enduring traits that influence behavior across many situations.
+Why: Correct. Trait theory posits stable, enduring dispositions (traits) that influence behavior across different situations.
+
+Q: In a crowded street, a passerby is less likely to intervene when someone is in distress if several other people are nearby than if the passerby is alone. This best illustrates which phenomenon in social psychology?
+Correct: Bystander effect
+Why: The bystander effect explains how the presence of others reduces the likelihood that an individual will intervene in an emergency.
+
+Q: Which statement best captures the core assumption of trait theory about personality across adulthood?
+Correct: People have a relatively stable set of dispositional traits that predict behavior across many situations.
+Why: This reflects trait theory’s core claim that stable dispositions underlie behavior across contexts and times.
+
+Q: In an emergency on a busy street, a person collapses and several bystanders are present. As the number of bystanders increases, the likelihood that any one person will intervene decreases. This pattern is best explained by which concept?
+Correct: Diffusion of responsibility
+Why: Correct. Diffusion of responsibility occurs when individuals feel less personal responsibility to act as the number of bystanders increases, leading to decreased intervention.
+
+Q: Which statement best captures the core assumption of trait theory in personality psychology?
+Correct: People have enduring, cross-situational tendencies that predict their behavior across many different situations.
+Why: Correct. Trait theory posits that individuals possess enduring dispositions (traits) that influence behavior across diverse contexts.
+
+Q: A project team's missed deadline is attributed by the manager to the team members' laziness and incompetence, without considering external pressures like an unrealistic timeline. This interpretation most closely illustrates which social psychology concept?
+Correct: Fundamental attribution error
+Why: Correct. The manager attributes the team's behavior to internal traits (laziness, incompetence) while ignoring situational factors, which is the fundamental attribution error.
+
+Q: Which statement best captures a core claim of trait theories of personality?
+Correct: Traits are stable patterns of thoughts, feelings, and behaviors that persist across most situations and over time.
+Why: Correct. Trait theories posit that personality consists of relatively stable patterns of thinking, feeling, and behaving that are consistent across many situations and over time.
+
+Q: When a student performs a very easy task successfully in the presence of a small audience but struggles with a difficult task in the same setting, which social psychology concept best explains this pattern?
+Correct: Social facilitation: The presence of others increases arousal and improves performance on simple tasks but impairs performance on complex tasks.
+Why: Correct. Social facilitation predicts better performance on simple tasks and worse performance on complex tasks when others are present due to increased arousal.
+
+Q: A student consistently enjoys exploring novel ideas, trying new activities, and thinking about abstract concepts. This pattern is best described by which Big Five personality trait?
+Correct: Openness to Experience
+Why: Openness to Experience captures curiosity, imagination, and a preference for novel ideas and abstract thinking—the best match for the stem.
+
+Q: Five students are assigned to a group project. When working together, each student contributes less effort than they would if working alone. This phenomenon is best explained by which concept in social psychology?
+Correct: Social loafing
+Why: Correct. Social loafing is the tendency for individuals to exert less effort when their contributions are not easily identifiable within a group.
+
+Q: Which statement best captures the DSM-5 criterion for classifying a condition as a mental disorder?
+Correct: A mental disorder requires clinically significant distress or impairment in social, occupational, or other important functioning.
+Why: Correct: Clinically significant distress or impairment in functioning is the core criterion (with cultural considerations taken into account).
+
+Q: According to social facilitation theory, which statement best describes how the presence of others affects performance on tasks of varying difficulty?
+Correct: Performance on well-practiced or simple tasks tends to improve in the presence of others, while performance on novel or difficult tasks tends to decline.
+Why: Correct. Social facilitation predicts arousal from others, which tends to enhance the dominant (well-learned) responses on easy tasks and impair non-dominant responses on difficult tasks.
+
+Q: According to DSM-5 criteria, which statement best describes the diagnostic threshold for Major Depressive Disorder?
+Correct: There must be at least five symptoms present during the same two-week period, and at least one of these symptoms must be depressed mood or anhedonia.
+Why: This statement correctly captures the DSM-5 threshold: at least five symptoms in a 2-week period, with depressed mood or anhedonia as one of them.
+
+Q: Which statement best contrasts reliability and validity in the measurement of a psychological construct?
+Correct: Reliability refers to the consistency of a measure across repeated administrations; validity refers to whether the measure assesses the intended construct.
+Why: Correct: reliability concerns consistency across repeated measurements, while validity concerns whether the test measures the intended construct.
+
+Q: A researcher compares two intact classes: Class A receives a new tutoring program, Class B does not. Both classes take a math test before and after the program. Assignment to Class A or B was not randomized; the two classes differed in prior achievement and teacher characteristics. Which research design best describes this study?
+Correct: Non-equivalent control group design (a type of quasi-experimental design)
+Why: Correct. The non-equivalent control group design is a quasi-experimental design with nonrandom assignment and a comparison group, typically using pretest and posttest.
+
+Q: Definition contrast: reliability vs validity in measurement. Which statement best distinguishes reliability from validity in psychological measurement?
+Correct: Reliability means a measure yields consistent results across time and items, while validity means the measure actually assesses the intended construct; a measure can be reliable without being valid, but not valid without reliability.
+Why: Correct. Reliability refers to consistency (across time/items); validity refers to whether the instrument measures the intended construct. A measure can be reliable but not valid (consistent but not measuring the right thing); validity requires that the measure be appropriate for the construct and purpose.
+
+Q: In a study examining whether a mindfulness training program reduces stress levels, researchers recruit 120 adults and randomly assign them to either the mindfulness group or a wait-list control. They measure stress at baseline, immediately after the program, and at a 3-month follow-up. Which feature of this design most directly enhances internal validity?
+Correct: Random assignment of participants to the mindfulness and control groups.
+Why: Correct. Random assignment helps ensure groups are equivalent on both measured and unmeasured confounds, strengthening causal inferences and internal validity.
+
+Q: Which statement best contrasts reliability and validity in the context of psychological measurement?
+Correct: Reliability is about the consistency of scores across repeated measurements; validity is about whether the test measures the intended construct; a measurement can be reliable but not valid.
+Why: Correct. Reliability refers to consistency and repeatability of measurements; validity refers to whether the instrument measures the intended construct. It is possible for a measure to be reliable (consistent) but not valid (not measuring the intended construct).
+
+Q: A psychologist wants to test whether a new cognitive training improves working-memory performance. They assign participants to two groups based on the day they visit the lab: Mondays become the training group, Wednesdays become the control group. All participants complete a baseline working-memory test, then the training group receives four weeks of training while the control group does not. After training, both groups take the same working-memory test. The training group shows higher scores. Which internal-validity threat is most likely driving the observed difference?
+Correct: Selection bias due to nonrandom assignment of participants to groups
+Why: Correct. Allocation by day was not randomized, likely producing preexisting differences (e.g., motivation, time-of-day effects) between groups that could account for the improved performance.
+
+Q: Definition contrast: Reliability vs validity in measurement. Which statement best distinguishes reliability from validity when evaluating a psychological measure (e.g., a survey of stress levels)?
+Correct: Reliability concerns the consistency of a measurement across repeated assessments; validity concerns whether the measurement assesses the intended construct.
+Why: Correct. Reliability refers to consistency and repeatability of measurements, while validity refers to whether the measure actually assesses the intended construct.
+
+Q: In a study evaluating whether a 6-week mindfulness training reduces perceived stress, 60 undergraduate students are randomly assigned to either the mindfulness group or a no-treatment control group. Stress is measured before and after the program. Which research design best describes this study?
+Correct: Randomized controlled trial (true experiment)
+Why: Correct. The study uses random assignment and manipulation of the independent variable (mindfulness training) with a control group, allowing causal inferences typical of a true experiment.
+
+Q: Definition contrast: In the context of measurement, which statement best contrasts reliability and validity?
+Correct: Reliability refers to the consistency of scores across repeated measurements; validity refers to whether the test measures the intended construct.
+Why: Correct. Reliability = consistency; validity = whether the measure assesses the intended construct.
+
+Q: In a study investigating whether using a mindfulness app for 8 weeks reduces self-reported stress among college students, participants are randomly assigned to either the mindfulness app group or a waitlist control group, and stress is measured at baseline and after 8 weeks. Which research design best describes this study?
+Correct: Randomized controlled trial (experimental design)
+Why: This is a randomized controlled trial: participants are randomly assigned to an experimental condition and a control condition, with pretest and posttest measurements, which supports causal inference about the effect of the mindfulness app.
+
+Q: In research that used deception to mask the true purpose of the study, which post-study action best fulfills ethical guidelines?
+Correct: Provide a full debriefing that reveals the true purpose, explains the deception, and allows participants to withdraw their data.
+Why: This option fulfills ethical guidelines by informing participants of the true purpose, explaining the deception, and allowing withdrawal of data if they choose.
+
+Q: Which part of a neuron is primarily responsible for receiving signals from other neurons?
+Correct: Dendrites
+Why: Dendrites have numerous receptors for neurotransmitters and are the main input structures for synaptic signals.
+
+Q: Under which condition is the use of deception in a research study considered ethically permissible?
+Correct: Deception may be used only when the IRB approves it, participants are debriefed, and there is no feasible alternative with similar scientific value.
+Why: Correct: deception is allowed only when IRB approves it, participants are debriefed afterward, and there is no feasible alternative that would achieve the same scientific value.
+
+Q: Which statement about the myelin sheath and its role in action potential conduction is most accurate?
+Correct: The myelin sheath increases the speed of action potential conduction by promoting saltatory conduction along the axon.
+Why: Myelin insulation increases conduction speed by enabling saltatory conduction at the nodes of Ranvier, and is located on axons, not dendrites.
+
+Q: In planning a study on memory recall, a researcher considers using mild deception to prevent participants from guessing the true purpose. Which statement best reflects current psychology research-ethics guidelines on the use of deception?
+Correct: Deception is allowed if participants give informed consent that they may be deceived and the study has IRB approval, followed by a thorough debriefing.
+Why: Correct: Deception is permitted only when IRB approves it and participants have been provided with appropriate informed consent (including information about potential deception) and a thorough debriefing after participation.
+
+Q: Which structure is primarily responsible for transmitting action potentials away from the neuron's cell body toward other neurons or effector cells?
+Correct: C) Axon
+Why: Correct. The axon conducts electrical impulses away from the cell body toward axon terminals and synapses.
+
+Q: Which practice best reflects ethical handling of informed consent and confidentiality in a study of college students’ study habits, where data will be de-identified, securely stored, and shared only in de-identified form under data-use agreements?
+Correct: Obtain informed consent, explain risks and benefits, guarantee confidentiality, de-identify data with codes, store data securely, and share only de-identified data under data-use agreements.
+Why: This option reflects core ethical practices: informed consent, disclosure of risks and benefits, confidentiality, data de-identification, secure data storage, and controlled sharing of data.
+
+Q: Which part of a neuron is primarily responsible for integrating synaptic inputs and determining whether an action potential will be generated?
+Correct: Axon hillock (initial segment)
+Why: Axon hillock is the correct site where the sum of inputs is evaluated and, if threshold is reached, an action potential is generated.
+
+Q: A psychology researcher plans a study on social influence and intends to use a cover story that will mislead participants about the study’s true purpose. The study has IRB approval. Which statement best reflects ethical guidelines regarding deception and informed consent?
+Correct: If deception is used, researchers must obtain IRB approval, ensure debriefing occurs after participation, and justify deception as necessary for the study’s value, and consider alternatives.
+Why: Correct: This reflects ethical guidelines: deception is permissible only with IRB approval, thorough debriefing after participation, justification of deception as necessary for the study, and consideration of non-deceptive alternatives.
+
+Q: Which statement best describes the function of the myelin sheath in neurons?
+Correct: It increases the speed of action potential conduction by insulating the axon.
+Why: Correct. Myelin insulates the axon and, with nodes of Ranvier, enables saltatory conduction to greatly increase transmission speed.
+
+Q: A patient begins taking a selective serotonin reuptake inhibitor (SSRI). Which synaptic change would be most directly expected in serotonergic synapses as a result of this medication?
+Correct: Increased serotonin concentration in the synaptic cleft.
+Why: SSRI blocks the serotonin transporter (SERT), reducing reuptake and leaving more serotonin in the synaptic cleft.
+
+Q: Which brain structure is most closely linked to the formation of new declarative memories (episodic and semantic)?
+Correct: Hippocampus
+Why: Correct: The hippocampus is essential for encoding and forming new declarative memories.
+
+Q: After administering a monoamine oxidase (MAO) inhibitor, which synaptic change is most likely to occur within hours in the brain?
+Correct: Increased levels of dopamine, norepinephrine, and serotonin in the synaptic cleft due to inhibited breakdown by MAO.
+Why: Correct. MAO inhibition reduces the breakdown of monoamines (dopamine, norepinephrine, serotonin), leading to higher concentrations in the synaptic cleft and greater postsynaptic receptor activation.
+
+Q: Which brain region is most critically involved in forming new episodic memories (the ability to remember personal events and experiences)?
+Correct: Hippocampus
+Why: The hippocampus is essential for encoding and forming new declarative (including episodic) memories; damage here impairs the ability to form new memories.
+
+Q: A pesticide exposure inhibits acetylcholinesterase, leading to excessive acetylcholine at cholinergic synapses. Which neurotransmitter system is primarily affected, and what is the expected pattern of receptor activation at the neuromuscular junction and autonomic effectors?
+Correct: Acetylcholine; prolonged stimulation of nicotinic receptors at the neuromuscular junction and muscarinic receptors in autonomic organs due to increased acetylcholine levels.
+Why: Correct. Acetylcholinesterase inhibition increases acetylcholine at all cholinergic synapses, leading to prolonged activation of both nicotinic receptors (e.g., NMJ) and muscarinic receptors (autonomic effectors).
+
+Q: Which brain region is most closely associated with planning and organizing goal-directed behavior?
+Correct: Prefrontal cortex
+Why: The prefrontal cortex, especially regions involved in executive function (e.g., dorsolateral PFC), supporting planning, maintaining goals, and organizing sequences of actions.
+
+Q: A patient is prescribed a medication that blocks the reuptake of dopamine, norepinephrine, and serotonin, leading to higher extracellular levels of these neurotransmitters. After several weeks of treatment, which outcome is most likely?
+Correct: Improved mood and motivation due to increased monoamine signaling in synapses.
+Why: Correct. Reuptake blockade increases extracellular dopamine, norepinephrine, and serotonin, which can improve mood and motivation after several weeks as brain adaptations occur.
+
+Q: Which brain region is most closely associated with the formation of new episodic memories (i.e., personal experiences)?
+Correct: Hippocampus
+Why: Correct. The hippocampus is essential for encoding and forming new declarative/episodic memories.
+
+Q: A researcher administers a drug that increases gamma-aminobutyric acid (GABA) levels in the synaptic cleft by blocking reuptake and enzymatic breakdown. Which explanation best accounts for the observed decrease in neuronal excitability?
+Correct: The postsynaptic neuron becomes more hyperpolarized due to increased chloride influx through GABA-A receptors.
+Why: Correct. GABA acting on GABA-A receptors increases Cl- influx, hyperpolarizing the postsynaptic cell and reducing excitability.
+
+Q: Which brain region is primarily responsible for coordinating voluntary movement and balance?
+Correct: Cerebellum
+Why: The cerebellum integrates sensory feedback and coordinates timing and precision of movements, and is essential for balance and motor coordination.
+
+Q: Which statement best distinguishes encoding from retrieval in memory processes?
+Correct: Encoding is the process of converting information into a mental representation that can be stored, while retrieval is the process of bringing stored information back into consciousness.
+Why: Correct. Encoding and retrieval are distinct stages: encoding transfers information into representations for storage; retrieval accesses those representations when needed.
+
+Q: In a family, whenever the child finishes cleaning their room, the parent's nagging stops. Over time, the child cleans the room more often. Which term best describes this procedure?
+Correct: Negative reinforcement
+Why: Correct. The removal of an aversive stimulus (nagging) following the cleaning behavior increases the likelihood that the behavior will occur again.
+
+Q: In studies involving immediate free recall of a list, which statement best explains the recency effect?
+Correct: Items at the end of the list are recalled best because they remain in short-term/working memory when recall begins.
+Why: Correct. The recency effect is typically explained by the last items still being in short-term/working memory at the time of recall.
+
+Q: Distinguish negative reinforcement vs punishment with a short scenario: In a classroom, a loud bell rings until a student hands in an overdue assignment. The bell stops as soon as the assignment is submitted. This scenario best represents which learning principle?
+Correct: Negative reinforcement — removal of an aversive stimulus (the bell) contingent on a behavior (submitting the assignment) increases the likelihood of that behavior.
+Why: Correct. The bell is an aversive stimulus that is removed when the student hands in the assignment, making this negative reinforcement (increasing the likelihood of submitting on time).
+
+Q: Which statement best distinguishes working memory from short-term memory in contemporary memory theories?
+Correct: Short-term memory is the passive storage of information for a short period, whereas working memory includes both storage and manipulation.
+Why: Accurately describes that short-term memory is passive storage and that working memory involves processing and manipulation.
+
+Q: In a classroom, whenever a student raises his hand to answer a question, the teacher stops scolding him for talking in class. This is an example of which learning process?
+Correct: Negative reinforcement
+Why: Correct. The removal of an aversive stimulus (stopping the scolding) after the desired behavior (raising the hand) increases the likelihood of that behavior, which is negative reinforcement.
+
+Q: According to the modal model of memory (short-term/working memory and long-term memory), which statement best captures a core characteristic of these systems?
+Correct: Short-term memory can hold about 5 to 9 items and lasts only briefly unless actively rehearsed.
+Why: Correct. The modal model posits a limited-capacity short-term memory (~5–9 items) that requires rehearsal to maintain information.
+
+Q: In the following scenario, identify whether the consequence best described is negative reinforcement or punishment. Scenario: A teacher stops nagging a student after the student begins doing homework and continues to stop nagging as long as the student finishes homework on time. The removal of nagging is intended to increase the likelihood of completing homework.
+Correct: A) Negative reinforcement — The removal of an aversive stimulus (nagging) increases the likelihood of the behavior (finishing homework).
+Why: Correct. The scenario shows removal of an aversive stimulus (nagging) following the behavior, which increases the behavior—negative reinforcement.
+
+Q: Elaborative rehearsal improves long-term memory encoding primarily because it:
+Correct: links new information to existing knowledge and creates meaningful associations, increasing retrieval cues.
+Why: Correct. Elaborative rehearsal involves semantic processing and forming connections to prior knowledge, which creates richer encoding and more retrieval cues.
+
+Q: According to Baddeley's Working Memory Model, which component is primarily responsible for temporarily holding and integrating information from different modalities (e.g., auditory input from speech and visual input from a map) into a single memory trace?
+Correct: Episodic Buffer
+Why: Correct. The episodic buffer is designed to hold multi-modal information temporarily and integrate it into a single, coherent memory trace, linking with long-term memory as needed.
+
+Q: A student sets an alarm that rings loudly in the morning. When the student gets out of bed and turns off the alarm, the ringing stops. Over time, the student wakes up earlier to turn off the alarm. This scenario best illustrates which of the following?
+Correct: Negative reinforcement
+Why: Correct: The removal of an aversive stimulus (the alarm) after the behavior (getting out of bed and turning it off) increases the likelihood of the behavior.
+
+Q: During a task that requires you to hold a sequence of digits in working memory while mentally performing operations on that sequence, which component of Baddeley and Hitch's Working Memory Model is mainly responsible for coordinating the digit-maintenance and the mental manipulation?
+Correct: Central executive
+Why: Correct. The central executive handles attentional control, coordination of subsystems, and manipulation of information within working memory.
+
+Q: A reader encounters the sentence 'The horse raced past the barn fell.' They often momentarily attach 'raced past the barn' as a main clause, then reanalyze when they reach 'fell.' This is an example of which language-processing phenomenon?
+Correct: Garden-path effect
+Why: The described misinterpretation and subsequent reanalysis is the classic garden-path effect in sentence processing.
+
+Q: In a dual-task scenario where a person must silently rehearse a 7-digit number (verbal task) while solving a mental rotation on a grid (visuospatial task), which component of the Working Memory Model is most directly responsible for allocating attention and coordinating these two tasks?
+Correct: Central executive
+Why: Correct. The central executive directs attention, coordinates processing, and allocates cognitive resources between tasks in a dual-task scenario.
+
+Q: During a quiet team meeting, a manager glances at the clock and says, 'Nice timing.' The team members stop their discussion and prepare to wrap up. Which language phenomenon best explains why they interpreted the remark as an indirect request to finish the meeting rather than a literal compliment on timing?
+Correct: It is an indirect request to wrap up, explained by Gricean implicature.
+Why: Correct. The remark uses indirectness and relies on conversational implicature (Gricean maxims) to signal a request to conclude the meeting.
+
+Q: A participant must simultaneously rehearse a sequence of digits aloud to keep them in working memory and visualize the layout of a classroom to decide where to go next. Which component of Baddeley and Hitch's Working Memory Model is primarily responsible for coordinating these simultaneous processes?
+Correct: Central executive
+Why: The central executive coordinates attention and the interaction between memory subsystems, enabling dual-task processing.
+
+Q: In a rapid word recognition experiment, a prime word is briefly shown just before a target word. If the prime is semantically related to the target (for example, 'nurse' followed by 'doctor'), participants identify the target more quickly than when the prime is unrelated (for example, 'bread' followed by 'doctor'). This pattern demonstrates which concept in language processing?
+Correct: Semantic priming
+Why: Correct: Semantic priming occurs when a related prime facilitates recognition of a related target due to spreading activation within the semantic network.
+
+Q: Which statement about the Working Memory Model is most accurate?
+Correct: The phonological loop stores speech-based information briefly, with capacity influenced by the word-length effect and impaired by articulatory suppression.
+Why: Correct. The phonological loop handles speech-based information; its capacity is affected by word length and can be reduced by articulatory suppression.
+
+Q: In a lexical decision task, the second word is identified more quickly when it is preceded by a semantically related first word (for example, 'dog' followed by 'bone') than when preceded by an unrelated first word (for example, 'bread' followed by 'bone'). This pattern is best explained by which concept?
+Correct: Semantic priming via spreading activation in the semantic network.
+Why: Correct. Semantically related primes activate related concepts in the mental lexicon, speeding access to the second word (semantic priming through spreading activation).
+
+Q: During a conservation task, a child watches you pour the same amount of juice from a short, wide glass into a tall, narrow glass. After the pour, the child says the tall glass contains more juice. This belief best illustrates which Piagetian concept?
+Correct: Conservation
+Why: Correct. The child is showing a lack of conservation of liquid quantity, a hallmark of the preoperational stage (ages 2–7).
+
+Q: In the Strange Situation assessment, a 12-month-old infant shows mild distress when the caregiver leaves, uses the caregiver as a secure base to explore the environment, and upon the caregiver's return immediately seeks proximity, allowing the caregiver to comfort them before resuming exploration. Based on these observations, which attachment pattern is most consistent with the infant's behavior?
+Correct: Secure attachment.
+Why: Correct: The described pattern—mild distress on separation, use of the caregiver as a secure base, and immediate seeking of comfort upon reunion followed by continued exploration—is the classic presentation of secure attachment.
+
+Q: Which scenario best illustrates concrete operational thinking in Piaget's theory of cognitive development?
+Correct: The child understands that changing the shape of a container does not change the amount of liquid.
+Why: Conservation of liquid across container shapes is a hallmark of concrete operational thinking, reflecting the child’s ability to perform logical operations on concrete objects.
+
+Q: During a Strange Situation assessment of a 24-month-old child, the caregiver consistently responds to separation and reunion with warmth and allows the child to explore when appropriate. The child shows moderate distress when the caregiver leaves, seeks contact on the caregiver's return, and then resumes exploring. Based on attachment theory, which attachment pattern best fits this child's behavior?
+Correct: Secure attachment: the child uses the caregiver as a secure base, shows moderate distress at separation, and is quickly soothed on reunion while resuming exploration.
+Why: Correct. The pattern described matches secure attachment: the child uses the caregiver as a secure base, shows moderate distress at separation, and is soothed by reunion, then resumes exploration.
+
+Q: A 6-year-old watches a tall glass of water being poured into a short, wide container. When asked which container has more water, the child points to the tall glass. This pattern best illustrates which Piagetian concept?
+Correct: Conservation
+Why: Correct. The child's belief that the taller glass contains more water reflects a failure to conserve quantity, a hallmark of the preoperational stage.
+
+Q: During a Strange Situation assessment, infant X explores a playroom with the caregiver present. When the caregiver leaves, the infant shows only mild distress but continues to watch the door. Upon the caregiver's return, the infant avoids eye contact, turns away, and resumes playing rather than seeking comfort. This pattern most closely corresponds to which attachment style?
+Correct: Insecure-avoidant attachment
+Why: Correct. Insecure-avoidant infants show little distress upon separation and tend to avoid or ignore the caregiver upon reunion, continuing to play.
+
+Q: Which statement best illustrates thinking characteristic of Piaget's Concrete Operational Stage, as opposed to the Preoperational Stage?
+Correct: Understanding that the amount of liquid remains the same when poured into a differently shaped container.
+Why: Correct. Conservation is a hallmark of concrete operational thought; the quantity remains the same despite changes in container shape.
+
+Q: In a classic Strange Situation assessment, a toddler who freely explores the room when the caregiver is present, frequently glances at the caregiver, becomes distressed when the caregiver leaves, and is quickly soothed and seeks contact on reunion, demonstrates which attachment style?
+Correct: Secure attachment
+Why: Correct: This pattern matches a secure attachment—the child uses the caregiver as a secure base, shows distress upon separation, and is easily soothed upon reunion.
+
+Q: Which scenario best illustrates a cognitive achievement typically associated with Piaget's concrete operational stage (roughly ages 7–11)?
+Correct: A 9-year-old understands that the amount of water remains the same when poured into differently shaped containers.
+Why: Correct: understanding conservation of volume across container changes reflects concrete operational thinking.
+
+Q: During a Strange Situation procedure, a 12-month-old infant shows high distress when the caregiver leaves, and upon the reunion, the infant briefly approaches the caregiver but freezes, looks frightened, and then resumes exploring. Which attachment style best explains this pattern?
+Correct: Disorganized/disoriented attachment
+Why: Disorganized/disoriented attachment involves contradictions, freezing, apprehension toward the caregiver, and a lack of a coherent strategy, matching this pattern.
+
+Q: According to Kohlberg's theory of moral development, which statement best captures the core idea of how moral reasoning changes over time?
+Correct: Moral reasoning progresses through levels and stages, each with increasingly abstract and principled reasoning.
+Why: Correct. Kohlberg's theory posits that moral reasoning develops through levels and stages, becoming increasingly abstract and principled.
+
+Q: In Ainsworth's Strange Situation, a 12-month-old shows distress when the caregiver leaves, and on reunion the child both seeks contact with the caregiver and pulls away, remaining difficult to soothe for several minutes. Based on this pattern, which attachment style best fits?
+Correct: Insecure-resistant (ambivalent) attachment
+Why: Correct. Distress on separation with simultaneous approach and resistance to soothing at reunion is characteristic of insecure-resistant (ambivalent) attachment.
+
+Q: According to Piaget's theory of moral development, children move from heteronomous morality to autonomous morality as they mature. Which scenario best illustrates autonomous morality?
+Correct: A child says it's acceptable to break a rule if the group agrees that the rule is unfair and should be changed.
+Why: Correct. Autonomous morality involves evaluating rules in light of fairness and mutual agreement, with the possibility of changing rules when they are unfair.
+
+Q: During a Strange Situation assessment, which observation is most consistent with a secure attachment to the caregiver?
+Correct: The infant approaches the caregiver upon return, seeks contact, and calms quickly.
+Why: Correct. Secure attachment is characterized by using the caregiver as a secure base, seeking proximity when reunited, and being easily soothed.
+
+Q: In Kohlberg's theory of moral development, which scenario best illustrates postconventional reasoning (stages 5-6)?
+Correct: Aria argues that laws should be changed if they violate fundamental human rights, even if doing so disrupts the majority.
+Why: Correct. This option reflects postconventional reasoning, where universal rights and social contracts are weighed against laws and norms, even if it conflicts with the majority.
+
+Q: In the Strange Situation procedure, which attachment pattern best exemplifies secure attachment, and what behavior underlies this pattern?
+Correct: Secure attachment: the infant uses the caregiver as a secure base for exploration, shows moderate distress on separation, and is easily soothed upon reunion when the caregiver has provided consistent responsiveness.
+Why: Correct. Secure attachment involves using the caregiver as a secure base, showing balanced distress and ease of soothing when the caregiver is responsive and consistent.
+
+Q: During a classroom exam, Alex refuses to copy another student's answers, saying, 'Cheating is wrong and rules exist to keep things fair for everyone.' This reasoning best reflects which level of Kohlberg's moral development theory?
+Correct: B) Conventional level: morality based on following rules and maintaining social order and fairness.
+Why: This mirrors Kohlberg's conventional level, where moral judgment is based on maintaining rules and social order.

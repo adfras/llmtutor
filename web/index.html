@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Psych Tutor — Test UI</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; }
+      .row { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; }
+      select, button, textarea, input { font-size: 1rem; }
+      textarea { width: 100%; height: 7rem; }
+      .card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem; margin-top: 1rem; }
+      .options { display: grid; gap: .5rem; margin-top: .5rem; }
+      .option { padding: .5rem .75rem; border: 1px solid #ccc; border-radius: 6px; cursor: pointer; }
+      .option.correct { border-color: #2e7d32; background: #e8f5e9; }
+      .option.wrong { border-color: #c62828; background: #ffebee; }
+      .muted { color: #666; font-size: .9rem; }
+      .rationale { margin-top: .25rem; font-size: .95rem; }
+      .footer { margin-top: 2rem; font-size: .9rem; color: #555; }
+      .pill { display: inline-block; padding: .1rem .5rem; border-radius: 999px; background: #eef; margin-left: .5rem; font-size: .85rem; }
+    </style>
+  </head>
+  <body>
+    <h1>Psych Tutor — Minimal UI</h1>
+    <div class="card">
+      <div class="row" style="margin-bottom:.25rem">
+        <button id="tabQuiz">Quiz</button>
+        <button id="tabProgress">Progress</button>
+      </div>
+      <div class="row">
+        <label for="username">Username</label>
+        <input id="username" placeholder="Enter name" />
+        <button id="useUser">Use</button>
+        <span id="hello" class="muted"></span>
+      </div>
+      <div class="row" style="margin-top:.5rem">
+        <button id="gen">Generate Question</button>
+        <button id="next" title="Adaptive selection">Next (adaptive)</button>
+        <label class="muted" title="Show brief explanations after you answer."><input type="checkbox" id="rich" checked aria-describedby="help-rich"/> Show explanations</label>
+        <label class="muted" title="Second model pass answers the item; regenerates if mismatch (slower, more accurate)."><input type="checkbox" id="verify" aria-describedby="help-verify"/> Self‑verify</label>
+        <label class="muted" title="Uses curated patterns per skill with misconception‑aligned distractors; rotates least‑used template first."><input type="checkbox" id="useTemplates" aria-describedby="help-templates"/> Use templates</label>
+        <label class="muted" title="Practice: immediate feedback. Check‑up: 10‑item block with summary.">Mode
+          <select id="mode" aria-describedby="help-mode">
+            <option value="practice" selected>Practice</option>
+            <option value="checkup">Check‑up (10 items)</option>
+          </select>
+        </label>
+        <div id="status" class="muted"></div>
+      </div>
+      <div class="muted" style="margin-top:.25rem; line-height:1.2">
+        <div id="help-rich"><strong>Show explanations:</strong> brief rationales appear after you answer.</div>
+        <div id="help-verify"><strong>Self‑verify:</strong> double‑checks the answer key with a second model call (slower; higher accuracy).</div>
+        <div id="help-templates"><strong>Use templates:</strong> uses curated question patterns per skill and rotates them to improve coverage.</div>
+        <div id="help-mode"><strong>Mode:</strong> Practice gives immediate feedback; Check‑up hides feedback for 10 items and then shows a mini summary.</div>
+      </div>
+      <div id="stats" class="muted" style="margin-top:.5rem"></div>
+    </div>
+
+    <div id="qa" class="card" style="display:none" aria-live="polite"></div>
+
+    <div id="progress" class="card" style="display:none">
+      <div class="row" style="justify-content:space-between; align-items:center">
+        <h3 style="margin:.3rem 0">Your Progress</h3>
+        <button id="refreshProgress">Refresh</button>
+      </div>
+      <div id="progressSummary" class="muted" style="margin-bottom:.5rem"></div>
+      <div>
+        <h4 style="margin:.2rem 0">By Category</h4>
+        <div id="catBars"></div>
+      </div>
+      <div style="margin-top:.5rem">
+        <h4 style="margin:.2rem 0">By Skill (top 8)</h4>
+        <div id="skillBars"></div>
+      </div>
+    </div>
+
+    <div class="footer">One-click generate; 5 answers; shows correct/incorrect.</div>
+
+    <script>
+      // Minimal: fixed skill/type/difficulty
+      const DEFAULT_SKILL = 'cog-learning-theories';
+      const DEFAULT_TYPE = 'mcq';
+      const DEFAULT_DIFF = 'medium';
+      const genBtn = document.getElementById('gen');
+      const nextBtn = document.getElementById('next');
+      const userInput = document.getElementById('username');
+      const useBtn = document.getElementById('useUser');
+      const hello = document.getElementById('hello');
+      const statsEl = document.getElementById('stats');
+      const status = document.getElementById('status');
+      const qa = document.getElementById('qa');
+      const progress = document.getElementById('progress');
+      const tabQuiz = document.getElementById('tabQuiz');
+      const tabProgress = document.getElementById('tabProgress');
+      const refreshProgress = document.getElementById('refreshProgress');
+      const progressSummary = document.getElementById('progressSummary');
+      const catBars = document.getElementById('catBars');
+      const skillBars = document.getElementById('skillBars');
+      const richChk = document.getElementById('rich');
+      const verifyChk = document.getElementById('verify');
+      const useTemplatesChk = document.getElementById('useTemplates');
+      const modeSel = document.getElementById('mode');
+
+      let current = null; // holds last question payload
+      let lastWasCorrect = null;
+      let block = {mode:'practice', answered:0, total:10, tally:0, details:[]};
+      let userId = localStorage.getItem('tutor_user_id');
+      let username = localStorage.getItem('tutor_username') || '';
+      userInput.value = username;
+      let skillMap = {};
+      function showHello() {
+        hello.textContent = username ? `(Hello, ${username})` : '';
+      }
+      async function loadSkills() {
+        try {
+          const res = await fetch('/api/skills');
+          const js = await res.json();
+          skillMap = Object.fromEntries((js.skills||[]).map(s => [s.id, s.name]));
+        } catch (e) {}
+      }
+      async function ensureUser() {
+        if (username) {
+          const res = await fetch('/api/user/upsert', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({username})});
+          const js = await res.json();
+          userId = js.user_id; username = js.username;
+          localStorage.setItem('tutor_user_id', userId);
+          localStorage.setItem('tutor_username', username);
+          showHello();
+          return true;
+        }
+        return !!userId; // fallback to legacy anonymous id if present
+      }
+      showHello();
+      loadSkills();
+      function setStatus(msg) { status.textContent = msg || ''; }
+
+      function renderMCQ(q) {
+        qa.innerHTML = '';
+        const h = document.createElement('div');
+        h.innerHTML = `<h3 style="margin:.3rem 0 0.5rem">${q.stem}</h3>`;
+        qa.appendChild(h);
+        // Confidence control (1-5)
+        const confWrap = document.createElement('div');
+        confWrap.className = 'row';
+        confWrap.innerHTML = '<span class="muted">Confidence (1–5):</span>';
+        const confSel = document.createElement('select');
+        for (let i=1;i<=5;i++){ const o=document.createElement('option'); o.value=String(i); o.textContent=String(i); if(i===3)o.selected=true; confSel.appendChild(o);} 
+        confWrap.appendChild(confSel);
+        qa.appendChild(confWrap);
+        const list = document.createElement('div'); list.className = 'options';
+        q.options.forEach((opt, idx) => {
+          const div = document.createElement('div');
+          div.className = 'option';
+          div.setAttribute('role','button');
+          div.setAttribute('tabindex','0');
+          div.textContent = opt;
+          div.addEventListener('click', () => {
+            const correct = q.correct_index;
+            const opts = [...qa.querySelectorAll('.option')];
+            opts.forEach((el, i) => {
+              el.classList.remove('correct','wrong');
+              if (i === correct) el.classList.add('correct');
+            });
+            const wasCorrect = (idx === correct);
+            lastWasCorrect = wasCorrect;
+            if (!wasCorrect) div.classList.add('wrong');
+            if (modeSel.value === 'practice') {
+              setStatus(wasCorrect ? 'Correct' : 'Incorrect');
+            } else {
+              setStatus(`Recorded (${block.answered+1}/${block.total})`);
+            }
+            // Record result for user profile
+            try {
+              let misconception_tag = null;
+              if (!wasCorrect && q.misconception_tags && Array.isArray(q.misconception_tags)) {
+                misconception_tag = q.misconception_tags[idx] || null;
+              }
+              const confidence = parseInt(confSel.value, 10);
+              const tNow = Date.now();
+              const started = qa.getAttribute('data-started');
+              const time_to_answer_ms = started ? (tNow - parseInt(started,10)) : null;
+              fetch('/api/record', {
+                method: 'POST', headers: {'Content-Type':'application/json'},
+                body: JSON.stringify({ user_id: userId, skill_id: (current && current.skill_id) || 'cog-learning-theories', correct: wasCorrect, misconception_tag, item_id: q.item_id, confidence, time_to_answer_ms, template_id: q.template_id })
+              }).then(r => r.json()).then(js => {
+                const s = js.stats || {};
+                const skillId = (current && current.skill_id) || 'cog-learning-theories';
+                const sk = (s.per_skill && s.per_skill[skillId]) || {correct:0,wrong:0,total:0};
+                const catId = js.category_id;
+                const cat = (s.per_category && s.per_category[catId]) || {correct:0,wrong:0,total:0};
+                const mastery = (sk.mastery != null) ? ` | Mastery ${(sk.mastery*100).toFixed(0)}%` : '';
+                statsEl.textContent = `Skill ${skillId}: ${sk.correct}/${sk.total} | Category ${catId}: ${cat.correct}/${cat.total}${mastery}`;
+              }).catch(()=>{});
+            } catch (e) {}
+            // Block mode counters
+            block.mode = modeSel.value;
+            block.answered += 1;
+            if (wasCorrect) block.tally += 1;
+            block.details.push({item_id:q.item_id, wasCorrect, skill_id:(current&&current.skill_id)||DEFAULT_SKILL});
+            if (modeSel.value === 'checkup') {
+              // Hide rationales until block end
+              const rEl = qa.querySelector('.rationale'); if (rEl) rEl.style.display='none';
+              if (block.answered >= block.total) {
+                const sum = document.createElement('div');
+                sum.className = 'card';
+                const pct = Math.round(100*block.tally/block.total);
+                sum.innerHTML = `<strong>Check‑up complete:</strong> ${block.tally}/${block.total} (${pct}%).`;
+                qa.appendChild(sum);
+                // Reset block
+                block.answered = 0; block.tally = 0; block.details = [];
+              }
+            }
+          });
+          list.appendChild(div);
+        });
+        qa.appendChild(list);
+
+        // Report a problem button
+        const report = document.createElement('button');
+        report.textContent = 'Report a problem';
+        report.addEventListener('click', () => {
+          const item_id = q.item_id;
+          fetch('/api/item/flag', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ item_id })})
+            .then(r=>r.json()).then(()=>{ setStatus('Thanks for the report.'); }).catch(()=>{});
+        });
+        qa.appendChild(report);
+
+        // Keyboard shortcuts (1-9 to pick options)
+        document.onkeydown = (ev) => {
+          const n = parseInt(ev.key, 10);
+          if (!isNaN(n) && n>=1 && n<=q.options.length) {
+            const idx = n-1;
+            const btns = [...qa.querySelectorAll('.option')];
+            if (btns[idx]) btns[idx].click();
+          } else if (ev.key === 'Enter') {
+            nextBtn.click();
+          }
+        };
+        qa.setAttribute('data-started', String(Date.now()));
+
+        // Show rationales if rich mode
+        if (q.rationales && Array.isArray(q.rationales) && modeSel.value !== 'checkup') {
+          const r = document.createElement('div'); r.className = 'rationale';
+          r.textContent = 'Rationales:';
+          const ul = document.createElement('ul');
+          q.rationales.forEach((t,i)=>{
+            const li=document.createElement('li'); li.textContent = `${i+1}. ${t}`; ul.appendChild(li);
+          });
+          r.appendChild(ul); qa.appendChild(r);
+        }
+        // Learn more link
+        const lm = document.createElement('div'); lm.className='muted';
+        lm.innerHTML = `<a href="#" id="learnMore">Learn more</a>`;
+        qa.appendChild(lm);
+        lm.querySelector('#learnMore').addEventListener('click', async (e) => {
+          e.preventDefault();
+          const sid = (current && current.skill_id) || DEFAULT_SKILL;
+          try { const res = await fetch(`/api/skill/${sid}/oer`); const js = await res.json(); window.open(js.url, '_blank'); } catch(_e) {}
+        });
+      }
+
+      async function generate() {
+        qa.style.display = 'none'; qa.innerHTML = '';
+        setStatus('Generating…');
+        try {
+          await ensureUser();
+          const body = {
+            skill_id: (current && current.skill_id) || DEFAULT_SKILL,
+            type: DEFAULT_TYPE,
+            difficulty: DEFAULT_DIFF,
+            num_options: 5,
+            rich: !!richChk.checked,
+            verify: !!verifyChk.checked,
+            use_templates: !!useTemplatesChk.checked,
+            user_id: userId,
+          };
+          const res = await fetch('/api/generate', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(body)});
+          const data = await res.json();
+          current = data;
+          const q = data.question || {};
+          qa.style.display = '';
+          renderMCQ(q);
+          setStatus('');
+        } catch (e) {
+          setStatus('Error: ' + e);
+        }
+      }
+
+      genBtn.addEventListener('click', generate);
+      nextBtn.addEventListener('click', async () => {
+        qa.style.display = 'none'; qa.innerHTML = '';
+        setStatus('Choosing next…');
+        try {
+          await ensureUser();
+          const body = {
+            user_id: userId,
+            current_skill_id: (current && current.skill_id) || DEFAULT_SKILL,
+            last_correct: lastWasCorrect,
+            type: DEFAULT_TYPE,
+            difficulty: DEFAULT_DIFF,
+            num_options: 5,
+            rich: !!richChk.checked,
+            verify: !!verifyChk.checked,
+            use_templates: !!useTemplatesChk.checked,
+          };
+          const res = await fetch('/api/next', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body)});
+          const data = await res.json();
+          current = data;
+          qa.style.display = '';
+          renderMCQ(data.question || {});
+          setStatus(`Next skill: ${data.skill_id} (${data.reason})`);
+        } catch(e) {
+          setStatus('Error: ' + e);
+        }
+      });
+      function showTab(which) {
+        if (which === 'quiz') {
+          progress.style.display = 'none';
+          qa.style.display = (current ? '' : 'none');
+        } else {
+          qa.style.display = 'none';
+          progress.style.display = '';
+        }
+      }
+      tabQuiz.addEventListener('click', () => showTab('quiz'));
+      tabProgress.addEventListener('click', async () => { await renderProgress(); showTab('progress'); });
+
+      function makeBar(label, value, rightLabel) {
+        const wrap = document.createElement('div'); wrap.style.margin = '.25rem 0';
+        const top = document.createElement('div'); top.className='row'; top.style.justifyContent='space-between';
+        const l = document.createElement('div'); l.textContent = label; const r = document.createElement('div'); r.textContent = rightLabel || '';
+        top.appendChild(l); top.appendChild(r); wrap.appendChild(top);
+        const bar = document.createElement('div'); bar.style.height='10px'; bar.style.background='#eee'; bar.style.borderRadius='6px'; bar.style.overflow='hidden';
+        const fill = document.createElement('div'); fill.style.height='100%'; fill.style.width = Math.max(0, Math.min(100, value)) + '%'; fill.style.background='#4a90e2';
+        bar.appendChild(fill); wrap.appendChild(bar);
+        return wrap;
+      }
+
+      async function renderProgress() {
+        try {
+          await ensureUser();
+          const res = await fetch(`/api/user/${userId}/stats`);
+          const stats = await res.json();
+          let total = 0, correct = 0;
+          Object.values(stats.per_skill||{}).forEach(s => { total += (s.total||0); correct += (s.correct||0); });
+          const acc = total ? Math.round(100*correct/total) : 0;
+          progressSummary.textContent = `Answered ${total} items • Accuracy ${acc}%`;
+          // Categories bars
+          catBars.innerHTML = '';
+          const cats = stats.per_category||{};
+          Object.keys(cats).sort().forEach(cid => {
+            const c = cats[cid];
+            const acc2 = (c.total? (100*c.correct/c.total) : 0);
+            catBars.appendChild(makeBar(`${cid}`, acc2, `${c.correct}/${c.total}`));
+          });
+          // Skills bars
+          skillBars.innerHTML = '';
+          const entries = Object.entries(stats.per_skill||{}).sort((a,b)=> (b[1].total||0)-(a[1].total||0)).slice(0,8);
+          for (const [sid, s] of entries) {
+            const name = skillMap[sid] || sid;
+            const mastery = Math.round(100 * (s.mastery||0));
+            skillBars.appendChild(makeBar(`${name}`, mastery, `${s.correct||0}/${s.total||0} • ${mastery}%`));
+          }
+        } catch (e) {
+          progressSummary.textContent = 'Unable to load progress.';
+        }
+      }
+      refreshProgress.addEventListener('click', renderProgress);
+      useBtn.addEventListener('click', async () => {
+        username = userInput.value.trim();
+        if (!username) { setStatus('Enter a username'); return; }
+        await ensureUser();
+        setStatus('Ready');
+      });
+    </script>
+  </body>
+  </html>

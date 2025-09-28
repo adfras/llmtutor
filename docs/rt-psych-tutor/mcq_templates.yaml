@@ -1,0 +1,19 @@
+version: 1
+skills:
+  cog-learning-theories:
+    templates:
+      - id: cog-learn-contrast-reinf-punish
+        description: "Distinguish negative reinforcement vs punishment with a short scenario."
+        misconception_tags: [neg_reinf_vs_punish, reinforcement, punishment]
+      - id: cog-learn-classical-vs-operant
+        description: "Classify a learning example as classical vs operant conditioning."
+        misconception_tags: [classical_vs_operant, association, consequence]
+  rm-variables:
+    templates:
+      - id: rm-def-contrast-01
+        description: "Definition contrast: reliability vs validity in measurement."
+        misconception_tags: [validity_vs_reliability, reliability, validity]
+      - id: rm-scale-01
+        description: "Identify scale of measurement for a variable (nominal/ordinal/interval/ratio)."
+        misconception_tags: [scales_misclass]
+

@@ -1,0 +1,47 @@
+Q: Best RQHG-150 of IWTO-14 AGDX-106?
+Correct: LQUX-170 A
+Why: Reason for LQUX-170 A
+
+Q: Best RQHG-150 of KQDD-76 RQHG-150?
+Correct: LQUX-170 A
+Why: Reason for LQUX-170 A
+
+Q: Best RQHG-150 of IWTO-14 AGDX-106?
+Correct: LQUX-170 A
+Why: Reason for LQUX-170 A
+
+Q: Best RQHG-150 of KQDD-76 RQHG-150?
+Correct: LQUX-170 A
+Why: Reason for LQUX-170 A
+
+Q: Best RQHG-150 of IWTO-14 AGDX-106?
+Correct: LQUX-170 A
+Why: Reason for LQUX-170 A
+
+Q: Best RQHG-150 of KQDD-76 RQHG-150?
+Correct: LQUX-170 A
+Why: Reason for LQUX-170 A
+
+Q: Best RQHG-150 of IWTO-14 AGDX-106?
+Correct: LQUX-170 E
+Why: Reason for LQUX-170 E
+
+Q: Best RQHG-150 of KQDD-76 RQHG-150?
+Correct: LQUX-170 B
+Why: Reason for LQUX-170 B
+
+Q: Best RQHG-150 of IWTO-14 AGDX-106?
+Correct: LQUX-170 C
+Why: Reason for LQUX-170 C
+
+Q: Best RQHG-150 of KQDD-76 RQHG-150?
+Correct: LQUX-170 D
+Why: Reason for LQUX-170 D
+
+Q: Best RQHG-150 of IWTO-14 AGDX-106?
+Correct: LQUX-170 B
+Why: Reason for LQUX-170 B
+
+Q: Best RQHG-150 of KQDD-76 RQHG-150?
+Correct: LQUX-170 E
+Why: Reason for LQUX-170 E

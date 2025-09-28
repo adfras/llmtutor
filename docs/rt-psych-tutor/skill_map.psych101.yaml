@@ -1,0 +1,186 @@
+version: 1
+course: PSY 101 (Introductory Psychology)
+description: Foundational undergraduate psychology skill graph with prerequisites and Bloom levels.
+schema:
+  skill:
+    id: string  # stable key (slug)
+    name: string
+    parent: string|null  # parent skill id for hierarchy
+    prereqs: string[]  # prerequisite skill ids
+    bloom: string  # Remember/Understand/Apply/Analyze/Evaluate/Create
+    description: string
+skills:
+  - id: research-methods
+    name: Research Methods
+    parent: null
+    prereqs: []
+    bloom: Understand
+    description: Scientific method, variables, validity, reliability, ethics.
+  - id: rm-variables
+    name: Variables and Measurement
+    parent: research-methods
+    prereqs: [research-methods]
+    bloom: Understand
+    description: IV/DV/controls, operationalization, scales of measurement.
+  - id: rm-designs
+    name: Research Designs
+    parent: research-methods
+    prereqs: [research-methods]
+    bloom: Analyze
+    description: Experimental, correlational, quasi-experimental; internal/external validity.
+  - id: rm-ethics
+    name: Research Ethics
+    parent: research-methods
+    prereqs: [research-methods]
+    bloom: Understand
+    description: Informed consent, confidentiality, risk/benefit.
+
+  - id: biopsychology
+    name: Biological Psychology
+    parent: null
+    prereqs: []
+    bloom: Understand
+    description: Neurons, neurotransmission, brain structure/function, methods.
+  - id: bio-neuron
+    name: Neuron Structure & Function
+    parent: biopsychology
+    prereqs: [biopsychology]
+    bloom: Understand
+    description: Dendrites, soma, axon, action potentials, myelination.
+  - id: bio-neurotransmitters
+    name: Neurotransmitters
+    parent: biopsychology
+    prereqs: [bio-neuron]
+    bloom: Apply
+    description: Common neurotransmitters and behavioral effects; agonists/antagonists.
+  - id: bio-brain-areas
+    name: Brain Areas & Functions
+    parent: biopsychology
+    prereqs: [bio-neuron]
+    bloom: Understand
+    description: Cortex, limbic system, brainstem; lesion and imaging methods.
+
+  - id: cognitive
+    name: Cognitive Psychology
+    parent: null
+    prereqs: [research-methods]
+    bloom: Understand
+    description: Perception, attention, memory, language, problem solving.
+  - id: cog-memory
+    name: Memory Basics
+    parent: cognitive
+    prereqs: [cognitive]
+    bloom: Understand
+    description: Sensory/short-term/long-term memory; encoding, storage, retrieval.
+  - id: cog-working-memory
+    name: Working Memory Model
+    parent: cognitive
+    prereqs: [cog-memory]
+    bloom: Analyze
+    description: Phonological loop, visuospatial sketchpad, central executive.
+  - id: cog-learning-theories
+    name: Learning Theories
+    parent: cognitive
+    prereqs: [cognitive]
+    bloom: Understand
+    description: Classical and operant conditioning; reinforcement vs punishment.
+  - id: cog-language
+    name: Language
+    parent: cognitive
+    prereqs: [cognitive]
+    bloom: Apply
+    description: Structure of language; acquisition; common phenomena and biases.
+
+  - id: developmental
+    name: Developmental Psychology
+    parent: null
+    prereqs: [research-methods]
+    bloom: Understand
+    description: "Lifespan development: cognitive, social, moral."
+  - id: dev-piaget
+    name: Piaget’s Stages
+    parent: developmental
+    prereqs: [developmental]
+    bloom: Understand
+    description: Sensorimotor, preoperational, concrete operational, formal operational; conservation.
+  - id: dev-attachment
+    name: Attachment
+    parent: developmental
+    prereqs: [developmental]
+    bloom: Analyze
+    description: Attachment styles, Strange Situation, outcomes.
+  - id: dev-moral
+    name: Moral Development
+    parent: developmental
+    prereqs: [developmental]
+    bloom: Understand
+    description: Kohlberg’s stages; critiques and applications.
+
+  - id: social
+    name: Social Psychology
+    parent: null
+    prereqs: [research-methods]
+    bloom: Understand
+    description: Attitudes, conformity, groups, prejudice, social cognition.
+  - id: soc-attitudes
+    name: Attitudes & Persuasion
+    parent: social
+    prereqs: [social]
+    bloom: Apply
+    description: Attitude formation, cognitive dissonance, persuasion routes.
+  - id: soc-conformity
+    name: Conformity & Obedience
+    parent: social
+    prereqs: [social]
+    bloom: Analyze
+    description: Asch, Milgram; group influence and situational factors.
+  - id: soc-prejudice
+    name: Prejudice & Stereotypes
+    parent: social
+    prereqs: [social]
+    bloom: Analyze
+    description: Implicit/explicit bias; reduction strategies.
+
+  - id: personality
+    name: Personality
+    parent: null
+    prereqs: []
+    bloom: Understand
+    description: Trait vs psychodynamic vs humanistic; measurement.
+  - id: pers-big5
+    name: Big Five Traits
+    parent: personality
+    prereqs: [personality]
+    bloom: Understand
+    description: OCEAN traits; stability and predictive value.
+  - id: pers-assessment
+    name: Assessment & Measurement
+    parent: personality
+    prereqs: [personality, rm-variables]
+    bloom: Analyze
+    description: Reliability, validity, projective vs objective tests.
+
+  - id: abnormal
+    name: Abnormal Psychology
+    parent: null
+    prereqs: [research-methods]
+    bloom: Understand
+    description: Diagnostic categories, etiology, treatments.
+  - id: abn-anxiety
+    name: Anxiety Disorders
+    parent: abnormal
+    prereqs: [abnormal]
+    bloom: Understand
+    description: Generalized anxiety, panic, phobias; maintenance and treatment.
+  - id: abn-mood
+    name: Mood Disorders
+    parent: abnormal
+    prereqs: [abnormal]
+    bloom: Understand
+    description: Major depression, bipolar; cognitive and biological factors.
+  - id: abn-schizophrenia
+    name: Schizophrenia
+    parent: abnormal
+    prereqs: [abnormal]
+    bloom: Understand
+    description: Positive/negative symptoms; dopamine hypothesis; treatment overview.

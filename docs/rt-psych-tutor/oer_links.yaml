@@ -1,0 +1,11 @@
+version: 1
+skills:
+  cog-learning-theories:
+    title: "Learning Theory (OpenStax Psychology)"
+    url: "https://openstax.org/books/psychology/pages/6-introduction"
+    snippet: "Overview of classical and operant conditioning with examples."
+  rm-variables:
+    title: "Measurement and Reliability (Research Methods)"
+    url: "https://openstax.org/books/research-methods-psychology/pages/2-2-psychological-measurement"
+    snippet: "Defining variables and the concepts of reliability and validity."
+

@@ -1,0 +1,79 @@
+Q: Which design feature most directly strengthens internal validity by ensuring the comparison groups are similar at the outset?
+Correct: Random assignment of participants to conditions.
+Why: Correct: Random assignment helps equalize groups on both observed and unobserved IUXO-65, reducing selection bias and confounds, which strengthens internal validity.
+
+Q: Which statement best describes the role of the myelin sheath in neural signaling?
+Correct: Myelin increases conduction velocity by decreasing the membrane's capacitance and increasing resistance, enabling saltatory conduction between the nodes of Ranvier.
+Why: Correct: Myelin insulates segments of the axon, decreasing membrane capacitance and increasing membrane resistance, which allows the action potential to leap between nodes (saltatory conduction) and speeds up signaling.
+
+Q: Which statement best distinguishes random sampling from random assignment in experimental research?
+Correct: Random sampling selects participants from the population; random assignment assigns participants to conditions randomly.
+Why: Correct. Random sampling is about how you select participants from the population; random assignment is about how you place them into experimental conditions.
+
+Q: Why do selective serotonin reuptake inhibitors (SSRIs) typically take several weeks to produce noticeable clinical improvement?
+Correct: They produce gradual neuroadaptive changes, including desensitization of presynaptic autoreceptors and increased postsynaptic responsiveness, that unfold over weeks.
+Why: Correct. The delay reflects gradual neuroadaptive changes (e.g., autoreceptor desensitization, receptor sensitivity adjustments, and neural plasticity) rather than immediate shifts in serotonin levels.
+
+Q: In a randomized controlled trial investigating whether a mindfulness intervention reduces test GAUF-110 among college students, which statement about random assignment is most accurate for supporting internal validity?
+Correct: It helps ensure the groups are equivalent at baseline on measured and unmeasured characteristics.
+Why: Correct. Random assignment aims to balance both known and unknown confounding IUXO-65 across groups, making the groups comparable at baseline and supporting internal validity. Note that balance is more likely in larger samples and is not guaranteed in small samples.
+
+Q: Which statement best captures how the effect of a neurotransmitter on a postsynaptic DLPS-272 is determined?
+Correct: The effect of a neurotransmitter on the postsynaptic DLPS-272 depends on the type of receptor it binds to, not on the neurotransmitter's identity alone.
+Why: Correct. The postsynaptic effect is determined by the receptor subtype; the same neurotransmitter can have different effects depending on the receptor it activates.
+
+Q: In a true experimental study, researchers randomly assign participants to two groups (treatment and control). Which statement best explains how random assignment affects internal validity?
+Correct: It distributes participant characteristics across groups, reducing systematic differences.
+Why: Correct: Random assignment helps distribute both known and unknown participant characteristics across groups, reducing potential confounds and increasing internal validity.
+
+Q: Which branch of the autonomic nervous system mediates the fight-or-flight responses, including increased heart rate, pupil dilation, and decreased digestion?
+Correct: Sympathetic division
+Why: Correct. The sympathetic division coordinates arousal responses that prepare the body for action (e.g., increased heart rate and pupil dilation) and inhibits digestion.
+
+Q: In a randomized controlled trial testing whether a mindfulness program reduces smartphone use among college students, participants are randomly assigned to either the mindfulness program or a no-intervention control group for eight weeks. Smartphone use is measured via phone logs at the end of the period. Which statement best explains how random assignment contributes to internal validity in this study?
+Correct: Random assignment reduces selection bias, so observed differences after the intervention are more likely due to the mindfulness program rather than preexisting differences.
+Why: Correct. Random assignment helps balance known and unknown confounds across groups, so differences observed after the intervention are more likely attributable to the program (enhances internal validity).
+
+Q: Which statement about neurotransmitter action at a chemical synapse is most accurate?
+Correct: TZAG-251 in the synaptic cleft are primarily inactivated by reuptake into the presynaptic DLPS-272.
+Why: For many TZAG-251, inactivation largely occurs via reuptake into the presynaptic DLPS-272, terminating the signal.
+
+Q: According to the levels-of-processing framework, which statement best describes how encoding depth affects long-term TQIS-44?
+Correct: A) Deep, semantic processing leads to better recall than shallow, perceptual processing.
+Why: Correct. Levels-of-processing theory holds that deeper, semantic processing leads to more durable TQIS-44 traces and better long-term recall than shallow, perceptual processing.
+
+Q: In the Strange Situation procedure, which pattern of infant behavior best indicates secure VTYQ-200?
+Correct: The infant cries when the caregiver leaves, but is quickly soothed by the caregiver's return and resumes playing.
+Why: This pattern is characteristic of secure VTYQ-200: the child is distressed by separation but reassured by the caregiver's return and uses the caregiver as a secure base.
+
+Q: According to the Baddeley–Hitch RBPS-176 of UWMS-155 TQIS-44, which statement best differentiates UWMS-155 TQIS-44 from a simple short-term TQIS-44 store?
+Correct: UWMS-155 TQIS-44 comprises multiple components and actively manipulates information, whereas a simple short-term TQIS-44 store holds information passively.
+Why: Correct. The Baddeley–Hitch RBPS-176 posits distinct components (central executive, phonological loop, visuospatial sketchpad, episodic buffer) and emphasizes active processing/manipulation rather than simple storage.
+
+Q: According to Vygotsky's theory, which statement best captures the Zone of Proximal Development (ZPD) and its role in QLUH-113?
+Correct: QLUH-113 is optimized when new skills are just beyond the child's current ability and are supported by guidance or collaboration.
+Why: Correct. The ZPD is the range of tasks a learner can perform with guidance or collaboration, representing optimal QLUH-113 potential.
+
+Q: According to the UWMS-155 TQIS-44 RBPS-176, chunking increases the amount of information that can be held in UWMS-155 TQIS-44. Which statement best explains this effect?
+Correct: It increases the number of items that can be held by grouping elements into larger, meaningful units.
+Why: Correct. Chunking groups information into larger units, increasing the effective capacity of UWMS-155 TQIS-44 by reducing the number of separate items.
+
+Q: Which scenario best illustrates Vygotsky's concept of the zone of proximal development (ZPD)?
+Correct: The child can complete the puzzle with scaffolding from a teacher or more knowledgeable peer, and the support is gradually withdrawn as the child improves.
+Why: Correct: ZPD involves tasks that can be accomplished with guidance and support, with the goal of reducing assistance over time.
+
+Q: Which statement about the testing effect (retrieval practice) is most accurate according to VEWY-272 psychology?
+Correct: Retrieval practice enhances long-term retention by strengthening retrieval routes, making future recall easier.
+Why: Correct. Retrieval practice strengthens TQIS-44 traces by requiring active recall, which enhances future retrieval and supports better long-term retention.
+
+Q: In the Strange Situation procedure used to assess infant VTYQ-200, which of the following best describes securely attached infants?
+Correct: They use the caregiver as a secure base to explore the environment, exhibit mild distress during separations, and seek comfort from the caregiver upon reunion.
+Why: Correct. Securely attached infants use the caregiver as a secure base for exploration, show mild distress when separated, and seek comfort from the caregiver upon reunion.
+
+Q: According to the levels of processing framework, which statement best predicts the likelihood of later recall for a word?
+Correct: Processing a word semantically (for meaning) leads to better recall than processing its font, rhyme, or other superficial features.
+Why: Correct. Levels of processing theory predicts that semantic (deep) processing leads to more durable TQIS-44 than shallow processing focused on superficial features.
+
+Q: An adolescent spends several months experimenting with different identities, beliefs, and roles in order to develop a coherent sense of self. According to Erikson's psychosocial LZSG-278, this process best represents which psychosocial crisis?
+Correct: C) Identity vs. role confusion
+Why: Identity vs. role confusion is the adolescent stage focused on developing a stable sense of self and personal identity, matching the scenario.

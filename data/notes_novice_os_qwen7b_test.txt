@@ -1,0 +1,163 @@
+Q: In the context of psychological measurement, which statement best distinguishes reliability from validity?
+Correct: Reliability refers to the consistency of scores across time and items; validity refers to whether the measure actually assesses the intended construct.
+Why: Correct: reliability = consistency; validity = measures the intended construct.
+
+Q: Which statement best describes how long-term potentiation (LTP) contributes to learning in the hippocampus?
+Correct: LTP strengthens synapses by increasing postsynaptic receptor density and responsiveness to neurotransmitter.
+Why: Correct. LTP is characterized by long-lasting enhancement of synaptic strength, largely due to postsynaptic changes such as increased density and sensitivity of AMPA receptors, which supports learning.
+
+Q: A study tests a new teaching method with 150 college students from one university. The researchers state that their findings will generalize to high school students nationwide. This claim best concerns which research-methods concept?
+Correct: External validity
+Why: External validity refers to the generalizability of findings beyond the sample to other populations, settings, or times.
+
+Q: Which statement best explains why myelinated axons conduct action potentials more rapidly than unmyelinated axons?
+Correct: Action potentials jump from one node of Ranvier to the next, a process called saltatory conduction, which speeds up transmission.
+Why: Correct: saltatory conduction occurs at nodes of Ranvier, allowing the action potential to jump between nodes and travel faster along the axon.
+
+Q: In a quasi-experimental study where participants are not randomly assigned to conditions, which threat to internal validity most threatens the equivalence of groups at baseline and thus the validity of causal conclusions?
+Correct: Selection bias (preexisting differences between groups)
+Why: Correct. Without random assignment, groups may differ on important characteristics before the intervention, confounding causal inferences.
+
+Q: Which brain structure is most critically involved in consolidating new declarative memories from short-term to long-term storage?
+Correct: Hippocampus
+Why: Correct. The hippocampus is essential for consolidating new declarative memories into long-term storage, coordinating with cortical areas during consolidation.
+
+Q: In a randomized experiment evaluating a new teaching method on student test scores, which design choice most directly increases internal validity (the extent to which observed differences can be attributed to the method rather than other factors)?
+Correct: A) Randomly assign students to either the new teaching method or a control condition.
+Why: Correct. Random assignment helps ensure groups are equivalent on all known and unknown confounds, directly strengthening internal validity.
+
+Q: Which statement best describes the role of glutamate as a neurotransmitter in the brain?
+Correct: It is the brain's primary excitatory neurotransmitter, usually increasing the probability that the postsynaptic neuron fires.
+Why: Glutamate is the main excitatory neurotransmitter in the brain, often increasing the likelihood that a neuron fires an action potential.
+
+Q: In an experimental study, what is the primary purpose of random assignment of participants to conditions?
+Correct: Random assignment ensures that each participant has an equal chance of being assigned to any condition, thereby increasing internal validity.
+Why: Correct because random assignment helps equalize participant characteristics across conditions, reducing selection biases and supporting internal validity.
+
+Q: Which statement best describes how the body's stress response is coordinated by the sympathetic nervous system (SNS) and the hypothalamic-pituitary-adrenal (HPA) axis?
+Correct: The sympathetic nervous system provides rapid arousal by triggering the adrenal medulla to release adrenaline and noradrenaline, while the HPA axis produces a slower, longer-lasting response through cortisol released from the adrenal cortex after ACTH stimulation.
+Why: Correct. The SNS rapidly activates arousal by stimulating the adrenal medulla to release catecholamines (adrenaline and noradrenaline), while the HPA axis initiates a slower, prolonged response via cortisol release from the adrenal cortex after ACTH signaling.
+
+Q: During a phone call, you quickly repeat a 7-digit number to yourself and group the digits into chunks to aid recall. This behavior best illustrates which component of Baddeley and Hitch's working memory model?
+Correct: Phonological loop
+Why: Correct. The phonological loop stores and rehearses verbal/auditory information and supports subvocal rehearsal and chunking.
+
+Q: During a classroom activity, a teacher continually provides hints just beyond a child's current ability and gradually removes support as the child improves. This best illustrates which developmental concept?
+Correct: Scaffolding within the learner's zone of proximal development
+Why: Correct. This scenario demonstrates scaffolding provided within the learner's zone of proximal development (ZPD), where support is gradually removed as competence increases.
+
+Q: In Baddeley and Hitch's model of working memory, which of the following best describes the function of the phonological loop?
+Correct: It briefly stores and rehearses verbal and auditory information (subvocal articulation).
+Why: Correct: the phonological loop handles verbal/auditory storage and rehearsal, including subvocal articulation.
+
+Q: Which statement best characterizes the typical development of theory of mind in early childhood?
+Correct: By around age 4, most children pass classic false-belief tasks, indicating the emergence of a theory of mind.
+Why: Correct. By about age 4, many children begin to pass false-belief tasks, demonstrating emerging theory of mind.
+
+Q: According to Baddeley and Hitch's working memory model, which component is specialized for maintaining and manipulating visuospatial information (such as mental imagery and spatial orientation)?
+Correct: Visuospatial sketchpad
+Why: Correct. The visuospatial sketchpad is the component responsible for maintaining and manipulating visuospatial information like mental images and spatial relationships.
+
+Q: In a first-grade classroom, a teacher provides prompts, models the steps of a task, and gradually reduces assistance as the student begins to solve problems independently. This pattern best illustrates which concept in developmental psychology?
+Correct: Scaffolding within the child's zone of proximal development (ZPD) as described by Vygotsky.
+Why: Correct. This is classic scaffolding within the ZPD, where support is gradually withdrawn as the learner becomes more competent.
+
+Q: A participant studies a 12-item list of words and is asked to recall them after a short delay. The participant recalls more items from the beginning and the end of the list than from the middle. Which cognitive principle best explains this pattern?
+Correct: Primacy and recency effects: early items benefit from rehearsal and encoding into long-term memory, while last items remain in short-term memory for immediate recall.
+Why: Correct. The pattern reflects primacy and recency effects: early items are more rehearsed and encoded into long-term memory (primacy), while the last items remain in short-term memory for recall (recency).
+
+Q: In a classic conservation task, a child is shown two identical glasses with the same amount of water. Water is poured from one glass into a taller, thinner glass. After observing, the child says the taller glass now contains more water. This response most clearly illustrates a limitation associated with which Piagetian developmental stage?
+Correct: Preoperational
+Why: Correct: The preoperational stage (roughly ages 2–7) is characterized by centration and irreversibility, leading to failure to conserve quantity.
+
+Q: According to the levels of processing framework in cognitive psychology, which statement best explains why deep processing leads to better long-term recall than shallow processing?
+Correct: It enhances semantic encoding and elaboration, creating more retrieval cues.
+Why: Correct. The levels of processing theory posits that deeper, semantic processing creates more durable memory traces and more retrieval cues than shallow processing.
+
+Q: According to Vygotsky's concept of the Zone of Proximal Development (ZPD), a task is learned most effectively when it is:
+Correct: Just beyond what the child can do alone but possible with guidance or collaboration.
+Why: Correct. The ZPD consists of tasks that the child cannot yet do alone but can accomplish with appropriate support (scaffolding).
+
+Q: During a crowded subway ride, a passenger suddenly collapses and remains on the floor. Although several bystanders are nearby, no one offers help for an extended period. This pattern is best explained by which social psychology concept?
+Correct: Bystander effect
+Why: The bystander effect describes the tendency for individuals to be less likely to help a person in distress when others are present, due to diffusion of responsibility.
+
+Q: Which statement best differentiates a personality trait from a state in personality psychology?
+Correct: A personality trait is an enduring pattern of thinking, feeling, and behaving; a state is a temporary condition that can vary across situations.
+Why: Correct. Traits are enduring patterns that persist over time and across many situations, whereas states are temporary conditions that can change with context or mood.
+
+Q: In a workplace, you notice that a colleague is often late to meetings. You conclude they are lazy and disorganized. When you yourself are late due to heavy traffic, you attribute it to unavoidable circumstances. This pattern is best explained by which social psychology concept?
+Correct: Actor-observer bias
+Why: Correct: The actor-observer bias notes that we attribute others’ behavior to internal dispositions while explaining our own similar behavior with situational factors.
+
+Q: Which option best illustrates a personality trait as opposed to a temporary state?
+Correct: Maya generally tends to organize her work carefully and complete tasks on time.
+Why: Correct. This describes a stable, cross-situational pattern in behavior (tendency to be organized and conscientious), which is characteristic of a personality trait.
+
+Q: A student agrees with the opinions in a class discussion even though privately he doubts them, simply to fit in with the group. This best illustrates which type of social influence?
+Correct: Normative social influence
+Why: Correct. Normative social influence occurs when a person conforms to be liked or accepted by a group, even if privately they disagree.
+
+Q: Which statement best captures the view of trait theories (e.g., the Big Five) about the stability of personality and consistency of behavior across different situations?
+Correct: The Big Five traits capture broad, relatively stable dimensions that predict behavior across many contexts.
+Why: Correct: The Big Five describe broad, relatively stable dimensions that predict behavior across diverse contexts, supporting trait-based explanations of personality.
+
+Q: A person collapses in a crowded subway car and several bystanders do not intervene. Which of the following explanations best accounts for this lack of intervention?
+Correct: Diffusion of responsibility: the presence of others reduces each individual's sense of personal obligation to act.
+Why: Correct. Diffusion of responsibility explains why people are less likely to help when many bystanders are present.
+
+Q: In the Big Five personality model, which description best illustrates high conscientiousness in a work context?
+Correct: Always arrives on time, plans tasks in advance, keeps detailed checklists, and follows through on commitments.
+Why: Correct. Conscientiousness is characterized by reliability, organization, thorough planning, and consistent follow-through.
+
+Q: A student attributes another student's repeated lateness to 'carelessness' and 'irresponsibility.' This tendency to attribute others' behavior to stable traits while ignoring situational factors is called what?
+Correct: Fundamental attribution error
+Why: Correct. The fundamental attribution error involves over-attributing others' behavior to dispositional traits rather than situational factors.
+
+Q: In personality psychology, rank-order stability refers to the extent to which individuals maintain their relative standing on a trait over time, even when the average level of the trait in the population changes. Which option best describes this idea?
+Correct: C. Individuals maintain their relative standing on a trait over time, even if the trait's average level in the population changes.
+Why: Correct. Rank-order stability means the individual's relative position on a trait is preserved over time, even if mean levels shift.
+
+Q: In a crowded street, a person collapses. Which statement best explains why bystanders are often slow to help?
+Correct: Diffusion of responsibility causes each bystander to feel less personal obligation to intervene because the expectation that someone else will help spreads across the group.
+Why: Correct. Diffusion of responsibility explains reduced helping because each person assumes someone else will intervene, lowering personal sense of obligation.
+
+Q: Which statement best captures the difference between categorical and dimensional approaches to diagnosing psychopathology in abnormal psychology?
+Correct: Symptoms and impairment are viewed along a severity continuum, with diagnosis reflecting degree of distress.
+Why: This is the correct description of a dimensional approach: illness varies along a continuum, and severity/impairment inform the diagnosis.
+
+Q: When you attribute a colleague's chronic lateness to laziness, ignoring external factors like traffic or a bad weather day, you are illustrating which social psychology concept?
+Correct: Fundamental attribution error
+Why: Correct. Fundamental attribution error is the tendency to attribute others' behavior to internal traits while underestimating situational factors.
+
+Q: Which statement best differentiates reliability from validity in psychological assessment?
+Correct: Reliability refers to the consistency of a measure across time and raters, whereas validity refers to whether the measure actually measures the construct it intends to measure.
+Why: This option correctly defines reliability as consistency across time and raters, and validity as accuracy in measuring the intended construct.
+
+Q: In the bystander effect, which statement best describes the phenomenon?
+Correct: People are less likely to help when others are present due to diffusion of responsibility.
+Why: Correct: presence of others lowers personal sense of obligation to act because responsibility is shared.
+
+Q: Which statement best exemplifies the concept of reliability in diagnosing psychological disorders?
+Correct: Different clinicians applying the same diagnostic criteria arrive at the same diagnosis for the same patient.
+Why: Interrater reliability refers to the consistency of diagnoses across different clinicians who use the same criteria.
+
+Q: In a crowded subway, a person experiences a medical emergency. According to classic research on the bystander effect, how does the number of witnesses influence the likelihood that someone will intervene?
+Correct: Decrease, due to diffusion of responsibility among witnesses who each assume someone else will help.
+Why: Correct: diffusion of responsibility means each witness feels less personal obligation to act as the group size grows.
+
+Q: Which statement best captures the contemporary understanding of abnormal behavior in psychology?
+Correct: Abnormal behavior involves significant distress or impairment in functioning, and is considered within the context of cultural norms.
+Why: Correct. Contemporary definitions emphasize clinically significant distress or impairment in functioning, interpreted in the context of cultural norms.
+
+Q: Which statement best demonstrates the fundamental attribution error?
+Correct: Assuming the coworker’s lateness is due to laziness rather than external factors like traffic.
+Why: The statement attributes another person’s behavior (lateness) to an internal trait (laziness) and ignores situational factors like traffic, which is the essence of the fundamental attribution error.
+
+Q: In clinical assessment for abnormal psychology, which statement best differentiates reliability from validity?
+Correct: Reliability refers to consistency of scores across time or raters; validity refers to whether the test measures what it intends to measure.
+Why: This is the correct definition: reliability is about consistency, while validity is about measuring the intended construct.
+
+Q: In a crowded public plaza, when an individual collapses, the likelihood that someone will intervene decreases as the number of bystanders increases. This pattern is best explained by which mechanism?
+Correct: A) Diffusion of responsibility, where each bystander expects others to intervene.
+Why: Correct. As group size increases, personal responsibility diffuses; each bystander feels less compelled to intervene.

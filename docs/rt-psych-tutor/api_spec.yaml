@@ -1,0 +1,146 @@
+openapi: 3.1.0
+info:
+  title: Real-Time Psychology Tutor API
+  version: 0.1.0
+servers:
+  - url: https://api.example.com
+paths:
+  /session/start:
+    post:
+      summary: Start a tutoring session
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id: { type: string, format: uuid }
+                objectives: { type: array, items: { type: string } }
+      responses:
+        '200':
+          description: Session created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session_id: { type: string, format: uuid }
+
+  /question/next:
+    post:
+      summary: Get next question (adaptive)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id: { type: string, format: uuid }
+                session_id: { type: string, format: uuid }
+      responses:
+        '200':
+          description: Question payload
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/QuestionEnvelope'
+
+  /answer/submit:
+    post:
+      summary: Submit an answer; returns grading, feedback, and optionally next question
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id: { type: string, format: uuid }
+                session_id: { type: string, format: uuid }
+                question: { $ref: '#/components/schemas/QuestionEnvelope' }
+                answer: { type: object } # MCQ index or SAQ text
+      responses:
+        '200':
+          description: Result for the submitted answer
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  grading: { $ref: '#/components/schemas/Grading' }
+                  feedback: { $ref: '#/components/schemas/Feedback' }
+                  next_question: { $ref: '#/components/schemas/QuestionEnvelope' }
+
+  /users/{user_id}/progress:
+    get:
+      summary: Get per-skill mastery and due reviews
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema: { type: string, format: uuid }
+      responses:
+        '200':
+          description: Progress snapshot
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  mastery: { type: array, items: { $ref: '#/components/schemas/UserSkill' } }
+                  due_reviews: { type: array, items: { type: string } }
+
+  /skills:
+    get:
+      summary: List skills (topic map)
+      responses:
+        '200':
+          description: Skill list
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Skill' }
+
+components:
+  schemas:
+    Skill:
+      type: object
+      properties:
+        skill_id: { type: string }
+        name: { type: string }
+        parent_skill_id: { type: string, nullable: true }
+        bloom: { type: string }
+        description: { type: string }
+
+    UserSkill:
+      type: object
+      properties:
+        skill_id: { type: string }
+        mastery: { type: number }
+        next_review_at: { type: string, format: date-time, nullable: true }
+
+    QuestionEnvelope:
+      type: object
+      properties:
+        type: { type: string, enum: [mcq, saq] }
+        payload: { type: object }
+        skill_id: { type: string }
+        difficulty: { type: string }
+
+    Grading:
+      type: object
+      properties:
+        correct: { type: boolean }
+        score: { type: number }
+        misconception_tags: { type: array, items: { type: string } }
+
+    Feedback:
+      type: object
+      properties:
+        explanation: { type: string }
+        contrast_example: { type: string, nullable: true }
+        follow_up_question: { $ref: '#/components/schemas/QuestionEnvelope' }
+
